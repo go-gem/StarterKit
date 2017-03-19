@@ -122,7 +122,7 @@ func copyFile(src string, dst string) (err error) {
 	}
 
 	// fixed package import path
-	if filepath.Base(src) == "app.go" {
+	if isGoFile(src) {
 		old := []byte(`github.com/go-gem/StarterKit/src/` + projectType)
 		new := []byte(projectName)
 		data = bytes.Replace(data, old, new, -1)
@@ -133,6 +133,15 @@ func copyFile(src string, dst string) (err error) {
 	}
 
 	return
+}
+
+func isGoFile(filename string) bool {
+	l := len(filename)
+	if l > 4 && filename[l-3:] == ".go" {
+		return true
+	}
+
+	return false
 }
 
 func rollback() {
