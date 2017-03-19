@@ -1,0 +1,17 @@
+{
+  "server": {
+    "addr": ":8080"
+  },
+  "assets": {
+    "dirs": {
+      "/assets": "/"
+    }
+  },
+  "templates": {
+    "suffix": ".html",
+    "layouts_dir": "layouts",
+    "layouts": [
+      "main"
+    ]
+  }
+}

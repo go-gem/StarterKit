@@ -1,0 +1,12 @@
+{{define "title"}}{{.Post.Title}}{{end}}
+
+{{define "body"}}
+<div class="container">
+    <h1>{{.Post.Title}}</h1>
+    <hr>
+    <p class="text-muted text-right">Created by <a href="/user/{{.Post.User.Username}}">{{.Post.User.Username}}</a></p>
+    <div class="content">
+        {{.Post.Content}}
+    </div>
+</div>
+{{end}}

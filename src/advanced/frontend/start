@@ -1,0 +1,4 @@
+#!/bin/bash
+CompileDaemon \
+-command="./frontend -c ./publish/app.json" \
+-pattern="(.+\.go|.+\.c|.+\.html)$"

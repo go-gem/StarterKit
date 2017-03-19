@@ -1,0 +1,73 @@
+{{define "title"}}Gem Web Framework Base Application Template{{end}}
+
+{{define "cssAssets"}}<link rel="stylesheet" href="/assets/index.css">{{end}}
+
+{{define "jsAssets"}}<script src="/assets/index.js"></script>{{end}}
+
+{{define "body"}}
+<div class="container">
+    <div class="alert alert-success" role="alert">
+        <strong>Congratulation!</strong> Your application has been set up.
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a href="https://github.com/go-gem/StarterKit" target="_blank">Welcome to use Gem Web Framework Starter Kit</a>
+        </div>
+        <div class="card-block">
+            <h5 class="card-title">Structure</h5>
+            <div class="card-text">
+                <ul>
+                    <li>
+                        <span class="text-primary">/app.go</span>
+                    </li>
+                    <li><span class="text-primary">/controllers</span></li>
+                    <li>
+                        <span class="text-primary">/publish/app.json</span>
+                        - <span class="text-info">application configuration</span>
+                    </li>
+                    <li>
+                        <span class="text-primary">/publish/assets</span>
+                        - <span class="text-info">static resources</span>
+                    </li>
+                    <li>
+                        <span class="text-primary">/publish/templates</span>
+                        - <span class="text-info">template files</span>
+                    </li>
+                    <li>
+                        <span class="text-primary">/publish/templates/layouts</span>
+                        - <span class="text-info">template layouts</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card-block">
+            <h4 class="card-title">Support Us</h4>
+            <div class="card-text">
+                <ul>
+                    <li>Star the project.</li>
+                    <li>Spread the word.</li>
+                    <li><a href="https://github.com/go-gem/gem#contribute" target="_blank">Contribute</a> to the
+                        project.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card-block">
+            <h4 class="card-title">Contribute</h4>
+            <div class="card-text">
+                <ul>
+                    <li><a href="https://github.com/go-gem/gem/issues/new" target="_blank">Report issue</a></li>
+                    <li>Send PRs.</li>
+                    <li>Improve/fix documentation.</li>
+                </ul>
+
+                <strong>We’re always looking for help, so if you would like to contribute, we’d love to have
+                    you!</strong>
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

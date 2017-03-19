@@ -1,0 +1,18 @@
+{{define "title"}}
+User Profile
+{{end}}
+
+{{define "body"}}
+<table class="table table-striped table-bordered">
+    <tbody>
+    <tr>
+        <th>Name</th>
+        <td>{{.Profile.Username}}</td>
+    </tr>
+    <tr>
+        <th>Join at</th>
+        <td>{{.Profile.JoinAt}}</td>
+    </tr>
+    </tbody>
+</table>
+{{end}}

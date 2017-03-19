@@ -1,0 +1,5 @@
+#!/bin/bash
+CompileDaemon \
+-build="go build -o app" \
+-command="./app -c ./publish/app.json" \
+-pattern="(.+\.go|.+\.c|.+\.html)$"
