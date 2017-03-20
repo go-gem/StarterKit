@@ -1,8 +1,9 @@
 package controllers
 
 import (
-	"github.com/go-gem/gem"
 	"net/http"
+
+	"github.com/go-gem/gem"
 )
 
 type UserLogout struct {

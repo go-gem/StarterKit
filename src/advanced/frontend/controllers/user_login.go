@@ -3,13 +3,13 @@ package controllers
 import (
 	"fmt"
 	"html/template"
+	"net/http"
 	"path"
+	"strings"
 
 	"github.com/go-gem/StarterKit/src/advanced/common/models"
 	"github.com/go-gem/StarterKit/src/advanced/common/validators"
 	"github.com/go-gem/gem"
-	"net/http"
-	"strings"
 )
 
 type UserLogin struct {

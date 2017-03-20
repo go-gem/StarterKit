@@ -4,8 +4,9 @@ import (
 	"crypto/md5"
 	"encoding/gob"
 	"encoding/hex"
-	"github.com/go-gem/StarterKit/src/advanced/common/utils"
 	"time"
+
+	"github.com/go-gem/StarterKit/src/advanced/common/utils"
 )
 
 func init() {

@@ -7,7 +7,7 @@ Gem Web Framework Starter Kit includes two application templates:
 
 - advanced - multiple pages, session, database etc.
 
-> Note: requires gem `2.1` or above.
+> Note: requires gem `2.1.0` or above.
 
 
 ## Install
@@ -24,13 +24,13 @@ Firstly, create an application via StarterKit.
 - Basic Application
 
 ```
-StarterKit -name basic
+StarterKit -name myapp
 ```
 
 - Advanced Application
 
 ```
-StarterKit -name basic -type advanced
+StarterKit -name myapp -type advanced
 ```
 
 And then following the hint to launch your application.
@@ -38,7 +38,7 @@ And then following the hint to launch your application.
 
 ## Documentation
 
-- [Gem Web Framework](https://github.com/go-gem/gem)
+- [gem web framework](https://github.com/go-gem/gem)
 
 - [yarn](https://yarnpkg.com/)
 

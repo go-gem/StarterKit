@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"html/template"
+	"path"
 
 	"github.com/go-gem/StarterKit/src/advanced/common/models"
 	"github.com/go-gem/gem"
-	"path"
 )
 
 type UserProfile struct {

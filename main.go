@@ -137,7 +137,7 @@ func copyFile(src string, dst string) (err error) {
 
 func isGoFile(filename string) bool {
 	l := len(filename)
-	if l > 4 && filename[l-3:] == ".go" {
+	if l > 3 && filename[l-3:] == ".go" {
 		return true
 	}
 
